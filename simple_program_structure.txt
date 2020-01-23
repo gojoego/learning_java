@@ -1,0 +1,58 @@
+1 public class HelloPrinter 
+2 {
+3         public static void main(String[] args)
+4         {
+5             // Display a greeting in the console window
+6  
+7             System.out.println("Hello, World!");
+8         }    
+9  }
+
+Output: Hello, World!
+
+public class HelloPrinter
+
+-starts new class
+-public: class can be used everywhere in program 
+-every source file must contain public class
+-name of public class must match name of file containing class 
+-ex. HelloPrinter must be contained in file named HelloPrinter.java
+
+public static void main(String[] args)
+{
+   ...
+}
+
+-main: method 
+-method: contains collection of programming instructions that describe how to carry out particular task 
+-every Java application must have main method
+-statement in body of main method inside of curly brackets executed one by one
+-each statement ends in semi-colon
+-System.out: console window 
+-object: entity that you manipulate in programs
+-each object belongs to class 
+-class declares methods that specify what you can do with objects 
+-System.out belongs to PrintStream class
+-PrintStream class has method println for printing line of text 
+-methods called from Java library 
+-calling method: object to use, method to use, parameter containing information method needs
+
+System.out.println("Hello, World!");
+
+-System.out: object
+-println: method
+-("Hello, World!"): parameters
+-string: sequence of characters enclosed in double quotation marks, inside quotation marks
+
+// Display a greeting in the console window
+
+-comment: to explain to human what next statement does 
+-anything after "//" on line ignored by compiler 
+
+Common Errors: omitting semicolons
+
+Alternative Comment Syntax: 
+
+/* comments here */
+
+-good for comments that spread out over several lines
